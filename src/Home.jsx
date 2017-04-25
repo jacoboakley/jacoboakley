@@ -4,7 +4,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        Hello World
+        Hosted on Netlify
       </div>
     );
   }
