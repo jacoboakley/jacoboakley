@@ -13,9 +13,7 @@ const NavStyle = {
   alignItems: 'center',
   display: 'flex',
   flexWrap: 'wrap',
-  justifyContent: 'space-around',
-
-  background: '#eee',
+  justifyContent: 'space-between'
 }
 
 const Navbar = (props) => (

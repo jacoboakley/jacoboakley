@@ -1,10 +1,10 @@
 import React from 'react'
 
 const AvatarStyle = {
-  height: '5em',
-  width: '5em',
+  height: '10vmin',
+  width: '10vmin',
 
-  margin: '.5em',
+  margin: '.5em 2em .5em 2em',
 
   alignItems: 'center',
   display: 'flex',
