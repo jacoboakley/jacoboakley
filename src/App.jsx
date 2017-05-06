@@ -5,18 +5,17 @@ import { BrowserRouter as Router, Route, browserHistory } from 'react-router-dom
 import Home from './Home.jsx';
 import Hello from './Hello.jsx';
 import World from './World.jsx';
-import Sidebar from './Sidebar.jsx';
+import Navbar from './Navbar/Navbar.jsx';
 
 /* My Styles */
-const AppStyle = {
-  display: 'flex'
-};
+
 
 const ContentStyle = {
   alignItems: 'center',
   display: 'flex',
   justifyContent: 'center',
-  width: '80vw'
+  height: '100vh',
+  width: '100vw'
 };
 
 /* My App */
@@ -24,8 +23,8 @@ class App extends React.Component {
   render() {
     return (
       <Router history={browserHistory}>
-        <div style={AppStyle}>
-          <Sidebar />          
+        <div>
+          <Navbar />          
             <div style={ContentStyle}>
               <Route exact={true} path="/" render={() => (
                 <Home />
