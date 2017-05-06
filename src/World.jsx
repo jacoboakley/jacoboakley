@@ -4,7 +4,7 @@ class World extends React.Component {
   render() {
     return (
       <div>
-        World 
+        Hosted on Netlify 
       </div>
     );
   }

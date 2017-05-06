@@ -11,7 +11,7 @@ const LinkStyle = {
   color: 'white',
   fontSize: '5vmin',
   textDecoration: 'none',
-  textShadow: '.25vmin .25vmin 0 black'
+  textShadow: '2px 2px 0 #8a0099'
 }
 
 
