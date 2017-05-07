@@ -12,7 +12,6 @@ const NavStyle = {
 
   alignItems: 'center',
   display: 'flex',
-  flexWrap: 'wrap',
   justifyContent: 'space-between'
 }
 
