@@ -1,6 +1,6 @@
 import React from 'react';
 import Links from './Links.jsx';
-import Avatar from './Avatar.jsx';
+import Avatar from '../Shared/Avatar.jsx';
 
 const NavStyle = {
   position: 'fixed',

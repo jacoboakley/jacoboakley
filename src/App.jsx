@@ -6,6 +6,7 @@ import About from './About/About.jsx';
 import Hello from './Hello.jsx';
 import World from './World.jsx';
 import Navbar from './Navbar/Navbar.jsx';
+import Nametag from './Nametag/Nametag.jsx';
 
 
 /* My App */
@@ -14,7 +15,8 @@ class App extends React.Component {
     return (
       <Router history={browserHistory}>
         <div>
-          <Navbar />          
+          <Navbar />
+          <Nametag />
             <div>
               <Route exact={true} path="/" render={() => (
                 <About />

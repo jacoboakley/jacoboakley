@@ -1,5 +1,5 @@
 import React from 'react';
-import Goals from './Goals.jsx';
+import AboutMe from './AboutMe.jsx';
 
 const IntroStyle = {
   display: 'flex',
@@ -10,7 +10,7 @@ const IntroStyle = {
 
 const Intro = () => (
   <div style={IntroStyle}>
-    <Goals />
+    <AboutMe />
   </div>
 );
 
