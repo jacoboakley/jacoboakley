@@ -6,7 +6,7 @@ import About from './About/About.jsx';
 import Hello from './Hello.jsx';
 import World from './World.jsx';
 import Navbar from './Navbar/Navbar.jsx';
-import Nametag from './Nametag/Nametag.jsx';
+import Nametag from './Jumbotron/Nametag.jsx';
 
 
 /* My App */

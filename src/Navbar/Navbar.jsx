@@ -12,7 +12,9 @@ const NavStyle = {
 
   alignItems: 'center',
   display: 'flex',
-  justifyContent: 'space-between'
+  justifyContent: 'space-between',
+
+  zIndex: '1'
 }
 
 const Navbar = (props) => (

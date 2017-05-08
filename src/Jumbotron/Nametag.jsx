@@ -3,6 +3,8 @@ import Title from './Title.jsx';
 import Links from './Links.jsx';
 
 const NametagStyle = {
+  position: 'fixed',
+
   height: '65vh',
   width: '100vw',
 
@@ -12,7 +14,9 @@ const NametagStyle = {
   justifyContent: 'center',
 
   background: 'url("assets/images/night.png")',
-  backgroundSize: '100vw 65vh'
+  backgroundSize: '100vw 65vh',
+
+  zIndex: '-1'
 }
 
 const Nametag = () => (
