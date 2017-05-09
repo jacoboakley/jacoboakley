@@ -1,7 +1,7 @@
 import React from 'react';
 import Avatar from '../../Shared/Avatar.jsx';
 
-const KnowledgeStyle = {
+const SkillsStyle = {
   padding: '0',
   margin: '0',
 
@@ -25,22 +25,17 @@ const ParagraphStyle = {
   justifyContent: 'center',
 }
 
-const Knowledge = () => (
-  <div style={KnowledgeStyle}>
-    <Avatar />
+const Skills = () => (
+  <div style={SkillsStyle}>
     <div style={ParagraphStyle}>
-      <h1>What I know</h1>
+      <h1>What I Can Do</h1>
       <p>
-        Here is where I am supposed to impress you with my wealth of knowledge. I have learned three things so far.
+        I am a developing Frontend Web Developer that uses React to create lightweight web applications focusing on speed and design. I also work with Three.js and Blender to create 3D objects that can be rendered using WebGL and a web browser.
       </p>
-      <ol>
-        <li>There is always more to learn.</li>
-        <li>Someone knows more than you.</li>
-        <li>If you don't know it, Google it</li>
-      </ol>
     </div>
+    <Avatar />
   </div>
 );
 
 
-export default Knowledge;
+export default Skills;

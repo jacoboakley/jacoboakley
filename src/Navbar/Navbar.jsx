@@ -14,6 +14,9 @@ const NavStyle = {
   display: 'flex',
   justifyContent: 'space-between',
 
+  background: 'url("assets/images/night.png")',
+  backgroundSize: '100vw 65vh',
+
   zIndex: '1'
 }
 

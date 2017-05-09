@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from './Intro/AboutMe.jsx';
 import Knowledge from './Intro/Knowledge.jsx';
+import Skills from './Intro/Skills.jsx';
 
 const AboutStyle = {
   position: 'absolute',
@@ -15,6 +16,7 @@ class About extends React.Component {
       <div style={AboutStyle}>
         <AboutMe />
         <Knowledge />
+        <Skills />
       </div>
     )
   }
