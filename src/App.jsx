@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, HashHistory } from 'react-router-dom';
+import { BrowserRouter as Router, Route, hashHistory } from 'react-router-dom';
 
 /* My Components */
 import About from './About/About.jsx';
@@ -13,7 +13,7 @@ import Nametag from './Jumbotron/Nametag.jsx';
 class App extends React.Component {
   render() {
     return (
-      <Router history={HashHistory}>
+      <Router history={hashHistory}>
         <div>
           <Navbar />
           <Nametag />
