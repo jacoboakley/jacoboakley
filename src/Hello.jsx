@@ -12,7 +12,7 @@ class Hello extends React.Component {
   render() {
     return (
       <div style={HelloStyle}>
-        Hello 
+        Hello World
       </div>
     );
   }
