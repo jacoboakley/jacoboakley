@@ -1,11 +1,15 @@
 import React from 'react';
 import Title from './Title.jsx';
 import Links from './Links.jsx';
+import Avatar from '../Shared/Avatar.jsx';
+import Button from '../Shared/Button.jsx';
 
 const NametagStyle = {
-  position: 'fixed',
+  position: 'absolute',
+  margin: '0',
+  padding: '0',
 
-  height: '65vh',
+  height: '100vh',
   width: '100vw',
 
   alignItems: 'center',
@@ -13,16 +17,19 @@ const NametagStyle = {
   flexDirection: 'column',
   justifyContent: 'center',
 
-  background: 'url("assets/images/night.png")',
-  backgroundSize: '100vw 65vh',
+  zIndex: 1,
+}
 
-  zIndex: '-1'
+const ButtonStyle = {
+  padding: '5em',
 }
 
 const Nametag = () => (
   <div style={NametagStyle}>
+    <Avatar />
     <Title />
     <Links />
+    <Button title='See More' style={ButtonStyle} />
   </div>
 );
 

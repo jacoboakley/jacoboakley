@@ -5,7 +5,6 @@ import Skills from './Intro/Skills.jsx';
 
 const AboutStyle = {
   position: 'absolute',
-  marginTop: '65vh',
 
   background: 'white',
 }
