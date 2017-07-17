@@ -20,8 +20,8 @@ var renderer = new THREE.WebGLRenderer();
   renderer.setSize(width, height);
   document.body.appendChild( renderer.domElement);
 
-var geometry = new THREE.SphereGeometry(50, 16, 16); // radius, segments, rings
-var material = new THREE.MeshLambertMaterial( { color: 0xCC0000 });
+var geometry = new THREE.SphereGeometry(75, 16, 16); // radius, segments, rings
+var material = new THREE.MeshLambertMaterial( { color: 0x8a0099 });
   material.wireframe = true; // set to false to make object solid
 var sphere = new THREE.Mesh(geometry, material);
   scene.add(sphere);
