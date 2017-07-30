@@ -1,0 +1,35 @@
+.nametag {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+
+  height: 100vh;
+  width: 100vw;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  z-index: 1;
+}
+
+.button {
+  margin: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  background: transparent;
+  border: 1px solid #8a0099;
+  color: #8a0099;
+  cursor: pointer;
+  font-size: 5vmin;
+}
+
+.button:hover {
+  color: red;
+}
