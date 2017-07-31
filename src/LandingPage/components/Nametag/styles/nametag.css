@@ -30,6 +30,20 @@
   font-size: 5vmin;
 }
 
+@keyframes buttonFill {
+  0%   { background: transparent; color: #8a0099; }
+  100% { background: #8a0099; color: white; border: 1px solid white; }
+}
+
 .button:hover {
-  color: red;
+	animation: buttonFill 1s forwards;
+}
+
+@keyframes buttonUnfill {
+  0%   { background: #8a0099; color: white; border: 1px solid white; }
+  100% { background: transparent; color: #8a0099; }
+}
+
+.button:active {
+	animation: buttonUnfill 1s forwards;
 }
