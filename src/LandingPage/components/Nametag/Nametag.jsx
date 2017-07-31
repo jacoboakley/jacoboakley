@@ -14,7 +14,7 @@ const Nametag = () => (
     <Avatar />
     <Title />
     <Links />
-    <a className='button'>See More</a>
+    <a className='button'>Continue</a>
     </div>
   </div>
 );

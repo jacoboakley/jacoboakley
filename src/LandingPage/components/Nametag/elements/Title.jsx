@@ -6,7 +6,7 @@ import './styles/title.css';
 const Title = () => (
   <div className='title'>
     <p className='name'>
-      <strong>Jacob Oakley</strong>
+      Jacob Oakley
     </p>
     <p className='position'>
       Frontend Web Developer /<br/>

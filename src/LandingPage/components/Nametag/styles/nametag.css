@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+
 .nametag {
   position: absolute;
 
@@ -33,6 +35,7 @@
   border: 1px solid #8a0099;
   color: #8a0099;
   cursor: pointer;
+  font-family: 'Parisienne';
   font-size: 5vmin;
 }
 
