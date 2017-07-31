@@ -1,6 +1,6 @@
 import React from 'react';
 
-/* My Components */
+/* Components */
 import Nametag from './components/Nametag/Nametag.jsx';
 
 /* Space Animation */

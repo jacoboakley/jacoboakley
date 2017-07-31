@@ -1,0 +1,20 @@
+.title {
+  text-align: center;
+
+  color: white;
+}
+
+.name {
+  margin: 0;
+  padding-top: 6vmin;
+
+  font-size: 8vmin;
+}
+
+.position {
+  margin: 0;
+  padding-top: 6vmin;
+
+  font-size: 5vmin;
+  text-shadow: .25vmin .25vmin 0 #8a0099;
+}
