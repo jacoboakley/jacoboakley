@@ -1,0 +1,17 @@
+@keyframes buttonHover {
+  0%   { background: transparent; color: #8a0099; }
+  100% { background: #8a0099; color: white; border: 1px solid white; }
+}
+
+.button-hover:hover {
+	animation: buttonHover 1s forwards;
+}
+
+@keyframes buttonActive {
+  0%   { background: #8a0099; color: white; border: 1px solid white; }
+  100% { background: transparent; color: #8a0099; }
+}
+
+.button-active:active {
+	animation: buttonActive 1s forwards;
+}

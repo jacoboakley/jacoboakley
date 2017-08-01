@@ -6,14 +6,17 @@ import Nametag from './components/Nametag/Nametag.jsx';
 /* Space Animation */
 require('./THREE/space.js');
 
-class LandingPage extends React.Component {
+import './landingPage.css';
+
+export default class LandingPage extends React.Component {
+
+  
+
   render() {
     return (
-      <div>
+      <div id='landingPage'>
         <Nametag />
       </div>
     );
   }
 }
-
-export default LandingPage;

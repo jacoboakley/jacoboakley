@@ -1,0 +1,7 @@
+@keyframes active {
+  100% { margin-top: -100vh;}
+}
+
+.active {
+  animation: active 3s forwards;
+}

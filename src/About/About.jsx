@@ -1,12 +1,23 @@
 import React from 'react';
-import AboutMe from './Intro/AboutMe.jsx';
-import Knowledge from './Intro/Knowledge.jsx';
-import Skills from './Intro/Skills.jsx';
+import AboutMe from './elements/AboutMe.jsx';
+import Knowledge from './elements/Knowledge.jsx';
+import Skills from './elements/Skills.jsx';
 
 const AboutStyle = {
   position: 'absolute',
+  top: 0,
+
+  height: '100vh',
+  width: '100vw',
+
+  alignItems: 'center',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
 
   background: 'white',
+
+  zIndex: '-1',
 }
 
 class About extends React.Component {
