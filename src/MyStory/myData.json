@@ -1,0 +1,11 @@
+{
+  "hello": {
+    "title": "Hello",
+    "content": "I was born to do one thing but, I haven't been able to find a way to get paid sitting on the couch and binge watching Netflix. So, I decided to start   studying Frontend Web Development. If you ask my family, they will tell you how technically savvy I am. I don't think I would be bragging too much if I said   I am the go to guy when they need someone to hook up their printers. If the word of my family isn't enough keep reading and I may surprise you."
+  },
+  
+  "cardflip": {
+    "title": "Cardflip",
+    "content": "Using HTML I created a container div with a card div that had two children divs for the front and back of the cards. Within the front and back divs I inputted some text and added placeholder backgrounds. Next I wrote a simple function in JavaScript that used an if statement to determine the rotation of the card on the Y axis and if the rotation was 0 degrees then function would rotate the card 180 degrees, else the card would be rotated to 0 degrees. Finally I styled the components using CSS, set the animation characteristics, and set the perspective of for the 3D animation. "
+  }
+}

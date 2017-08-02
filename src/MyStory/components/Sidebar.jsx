@@ -1,6 +1,5 @@
 import React from 'react';
 import Links from './elements/links';
-import Avatar from './elements/avatar';
 import Projects from './elements/projects';
 
 const styles = {
@@ -23,7 +22,6 @@ export default class Sidebar extends React.Component {
   render() {
     return (
       <aside style={styles.sidebar}>
-        <Avatar />
         <Projects onClick={this.props.onClick} />
         <Links />
       </aside>
