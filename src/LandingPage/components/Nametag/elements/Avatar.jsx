@@ -9,7 +9,7 @@ const styles = {
   }
 }
 
-const Avatar = () => (
+const Avatar = (props) => (
   <div>
     <img style={styles.image} src='assets/images/avatar.png' alt='Avatar depicting likeness of author' />
   </div>

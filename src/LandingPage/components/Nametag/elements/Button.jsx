@@ -27,7 +27,8 @@ export default class Button extends React.Component {
 
   handleClick(e) {
     var landingPage = document.querySelector('#landingPage');
-    landingPage.classList.add("active");
+    landingPage.classList.remove("slideDown");
+    landingPage.classList.add("slideUp");
   }
 
   render() {

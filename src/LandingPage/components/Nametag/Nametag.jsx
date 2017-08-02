@@ -1,9 +1,9 @@
 import React from 'react';
 
 // Import Elements
-import Title from './elements/Title.jsx';
-import Links from './elements/Links.jsx';
-import Avatar from './elements/Avatar.jsx';
+import Title from './elements/Title';
+import Links from './elements/Links';
+import Avatar from './elements/Avatar';
 import Button from './elements/Button';
 
 const styles = {
@@ -18,7 +18,7 @@ const styles = {
     flexDirection: 'column',
     justifyContent: 'center',
 
-    zIndex: 1,
+    zIndex: 2,
   },
 }
 

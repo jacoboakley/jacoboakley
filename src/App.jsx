@@ -2,8 +2,7 @@ import React from 'react';
 
 /* My Components */
 import LandingPage from './LandingPage/LandingPage';
-import About from './About/About';
-import Gallery from './Gallery/Gallery';
+import MyStory from './MyStory/MyStory';
 
 
 /* My App */
@@ -12,8 +11,7 @@ class App extends React.Component {
     return (
       <div>
         <LandingPage />
-        <About />
-        <Gallery />
+        <MyStory />
       </div>
     );
   }

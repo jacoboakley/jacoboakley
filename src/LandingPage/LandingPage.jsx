@@ -11,7 +11,7 @@ import './animations/slideEffect.css';
 export default class LandingPage extends React.Component {
   render() {
     return (
-      <div id='landingPage'>
+      <div  id='landingPage'>
         <Nametag />
       </div>
     );
