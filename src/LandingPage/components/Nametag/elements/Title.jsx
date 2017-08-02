@@ -1,14 +1,33 @@
 import React from 'react';
 
-/* Import Styles */
-import './styles/title.css';
+const styles = {
+  container: {
+    textAlign: 'center',
+
+    color: 'white',
+  },
+
+  name: {
+    margin: 0,
+
+    fontFamily: 'Parisienne',
+    fontSize: '8vmin',
+  },
+
+  title: {
+    margin: 0,
+
+    fontSize: '5vmin',
+    textShadow: '.25vmin .25vmin 0 #8a0099',
+  }
+}
 
 const Title = () => (
-  <div className='title'>
-    <h1 className='name'>
+  <div style={styles.container} className='title'>
+    <h1 style={styles.name} className='name'>
       Jacob Oakley
     </h1>
-    <p className='position'>
+    <p style={styles.title}>
       Frontend Web Developer /<br/>
       Netflix Binge Watcher
     </p>

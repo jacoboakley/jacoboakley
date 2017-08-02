@@ -1,11 +1,17 @@
 import React from 'react';
 
-/* Import Styles */
-import './styles/avatar.css';
+const styles = {
+  image: {
+    height: '15vmin',
+    width: '15vmin',
+
+    borderRadius: '100%'
+  }
+}
 
 const Avatar = () => (
   <div>
-    <img className='avatar' src='assets/images/avatar.png' alt='Avatar depicting likeness of author' />
+    <img style={styles.image} src='assets/images/avatar.png' alt='Avatar depicting likeness of author' />
   </div>
 );
 
