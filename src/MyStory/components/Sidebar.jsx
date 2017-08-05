@@ -1,6 +1,6 @@
 import React from 'react';
 import Links from './elements/links';
-import Projects from './elements/projects';
+import Projects from './elements/sidebar/projects';
 
 const styles = {
   sidebar: {
