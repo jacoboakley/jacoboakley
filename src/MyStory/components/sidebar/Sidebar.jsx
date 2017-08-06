@@ -1,6 +1,5 @@
 import React from 'react';
-import Links from './elements/links';
-import Projects from './elements/sidebar/projects';
+import Projects from './elements/projects';
 
 const styles = {
   sidebar: {
@@ -12,9 +11,8 @@ const styles = {
     padding: 0,
 
     height: '100vh',
-    width: '15vw',
 
-    background: 'rgba(0, 0, 0, 1)',
+    background: 'rgba(0, 0, 0, .25)',
   },
 }
 
@@ -23,7 +21,6 @@ export default class Sidebar extends React.Component {
     return (
       <aside style={styles.sidebar}>
         <Projects onClick={this.props.onClick} />
-        <Links />
       </aside>
     )
   }

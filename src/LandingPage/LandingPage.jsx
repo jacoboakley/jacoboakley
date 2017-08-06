@@ -1,7 +1,7 @@
 import React from 'react';
 
 /* Components */
-import Nametag from './components/Nametag.jsx';
+import Nametag from './components/nametag/Nametag.jsx';
 
 /* Space Animation */
 require('./animations/space.js');

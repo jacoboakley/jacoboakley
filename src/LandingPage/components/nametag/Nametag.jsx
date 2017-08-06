@@ -1,10 +1,10 @@
 import React from 'react';
 
 // Import Elements
-import Title from './elements/nametag/Title';
-import Links from './elements/nametag/Links';
-import Avatar from './elements/nametag/Avatar';
-import Button from './elements/nametag/Button';
+import Title from './elements/Title';
+import Links from './elements/Links';
+import Avatar from './elements/Avatar';
+import Button from './elements/Button';
 
 const styles = {
   container: {

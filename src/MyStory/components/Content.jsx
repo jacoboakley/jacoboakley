@@ -2,10 +2,7 @@ import React from 'react';
 
 const styles = {
   container: {
-    position: 'absolute',
-
-    top: 0,
-    left: '15vw',
+    paddingLeft: '15vw',
 
     height: '100vh',
     width: '85vw',
