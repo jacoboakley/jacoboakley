@@ -1,17 +1,21 @@
 import React from 'react';
 
+import './animations/scale.css';
+
 const styles = {
   container: {
-    paddingLeft: '15vw',
+    marginTop: '15vh',
+    marginLeft: '5vw',
 
-    height: '100vh',
-    width: '85vw',
+    height: '80vh',
+    width: '90vw',
 
     alignItems: 'center',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
 
+    color: 'white',
   },
 
   paragraph: {
@@ -25,7 +29,7 @@ const styles = {
 export default class Content extends React.Component {
   render() {
     return(
-      <div style={styles.container}>
+      <div style={styles.container} className='hide scaleDown' id='content'>
         <h1>{this.props.title}</h1>
         <p style={styles.paragraph}>
           {this.props.content}

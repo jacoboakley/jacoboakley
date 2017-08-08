@@ -3,15 +3,14 @@ import React from 'react';
 /* Components */
 import Nametag from './components/nametag/Nametag.jsx';
 
-/* Space Animation */
-require('./animations/space.js');
+
 
 import './animations/slideEffect.css';
 
 export default class LandingPage extends React.Component {
   render() {
     return (
-      <div  id='landingPage'>
+      <div>
         <Nametag />
       </div>
     );

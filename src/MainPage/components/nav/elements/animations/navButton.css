@@ -1,0 +1,31 @@
+.side {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes shade {
+  0% { background-color: rgba(255, 255, 255, .0) }
+  100% { background-color: rgba(255, 255, 255, .25) }
+}
+.nav-button:hover {
+  animation: shade 2s forwards;
+  justify-content: space-around;
+}
+
+.side:focus {
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, .25)
+}
+
+.active {
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, .25)
+}

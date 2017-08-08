@@ -6,7 +6,7 @@ body {
 
   height:100vh; 
   width:100vw; 
-  /* ADD When FINISHED *//* overflow: hidden; *//* ADD When FINISHED */
+  overflow: hidden;
 }
 
 canvas {

@@ -1,0 +1,13 @@
+@keyframes display {
+  0% { opacity: 0;}
+  50% { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+.hide {
+  display: none;
+}
+
+.display {
+  animation: display 3s forwards;
+}

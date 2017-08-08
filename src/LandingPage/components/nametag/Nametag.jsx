@@ -23,7 +23,7 @@ const styles = {
 }
 
 const Nametag = () => (
-  <div style={styles.container}>
+  <div style={styles.container}   id='landingPage'>
     <Avatar />
     <Title />
     <Links />

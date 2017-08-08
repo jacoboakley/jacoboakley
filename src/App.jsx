@@ -2,7 +2,10 @@ import React from 'react';
 
 /* My Components */
 import LandingPage from './LandingPage/LandingPage';
-import MyStory from './MyStory/MyStory';
+import MainPage from './MainPage/MainPage';
+
+/* Space Animation */
+require('./LandingPage/animations/space.js');
 
 
 /* My App */
@@ -11,7 +14,7 @@ class App extends React.Component {
     return (
       <div>
         <LandingPage />
-        <MyStory />
+        <MainPage />
       </div>
     );
   }
