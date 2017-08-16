@@ -48,7 +48,7 @@ export default class Projects extends React.Component {
 
     for(var i = 1; i < data.length; i++) {
       var project = data[i];
-      projectArray.push(<p style={styles.project} onClick={this.props.onClick} key={project.id} data-title={project.title} data-content={project.content} data-made={project.madeWith} data-link={project.link}>{project.title}</p>)
+      projectArray.push(<p style={styles.project} onClick={this.props.onClick} key={project.id} data-title={project.title} data-content={project.content} data-made={project.madeWith} data-link={project.link} data-source={project.source}>{project.title}</p>)
     }
   }
 
