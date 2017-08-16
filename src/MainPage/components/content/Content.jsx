@@ -30,7 +30,8 @@ export default class Content extends React.Component {
   render() {
     return(
       <div style={styles.container} className='hide scaleDown' id='content'>
-        <h1>{this.props.title}</h1>
+        <h1><a href={this.props.link} target='_blank'>{this.props.title}</a></h1>
+        <h3>{this.props.madeWith}</h3>
         <p style={styles.paragraph}>
           {this.props.content}
         </p>

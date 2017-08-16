@@ -25,14 +25,14 @@ export default class Welcome extends React.Component {
 
   render() {
     return (
-      <a style={styles.container} onClick={this.props.onClick} key={data[0].id} data-title={data[0].title} data-content={data[0].content} className='nav-button side' href='#'>
-        <p data-title={data[0].title} data-content={data[0].content}>W</p>
-        <p data-title={data[0].title} data-content={data[0].content}>E</p>
-        <p data-title={data[0].title} data-content={data[0].content}>L</p>
-        <p data-title={data[0].title} data-content={data[0].content}>C</p>
-        <p data-title={data[0].title} data-content={data[0].content}>O</p>
-        <p data-title={data[0].title} data-content={data[0].content}>M</p>
-        <p data-title={data[0].title} data-content={data[0].content}>E</p>
+      <a style={styles.container} onClick={this.props.onClick} key={data[0].id} data-title={data[0].title} data-content={data[0].content} data-made={data[0].madeWith} className='nav-button side' href='#'>
+        <p data-title={data[0].title} data-content={data[0].content} data-made={data[0].madeWith}>W</p>
+        <p data-title={data[0].title} data-content={data[0].content} data-made={data[0].madeWith}>E</p>
+        <p data-title={data[0].title} data-content={data[0].content} data-made={data[0].madeWith}>L</p>
+        <p data-title={data[0].title} data-content={data[0].content} data-made={data[0].madeWith}>C</p>
+        <p data-title={data[0].title} data-content={data[0].content} data-made={data[0].madeWith}>O</p>
+        <p data-title={data[0].title} data-content={data[0].content} data-made={data[0].madeWith}>M</p>
+        <p data-title={data[0].title} data-content={data[0].content} data-made={data[0].madeWith}>E</p>
       </a>
     )
   }

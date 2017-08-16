@@ -25,16 +25,21 @@ export default class MainPage extends React.Component {
 
     this.state = { 
       title: data[0].title,
-      content: data[0].content
+      content: data[0].content,
+      madeWith: data[0].madeWith,
     }
   }
 
   handleClick(e) {
     var title = e.target.dataset.title;
     var content = e.target.dataset.content;
+    var link = e.target.dataset.link;
+    var madeWith = e.target.dataset.made;
     this.setState({
       title: title,
-      content: content
+      content: content,
+      link: link,
+      madeWith: madeWith,
     })
   }
 
@@ -42,7 +47,7 @@ export default class MainPage extends React.Component {
     return(
       <div style={styles.container} >
         <Nav onClick={this.handleClick.bind(this)}/>
-        <Content title={this.state.title} content={this.state.content}/>
+        <Content title={this.state.title} content={this.state.content} link={this.state.link} madeWith={this.state.madeWith} />
       </div>
     )
   }
