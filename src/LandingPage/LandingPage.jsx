@@ -5,7 +5,7 @@ import Nametag from './components/nametag/Nametag.jsx';
 
 
 
-import './animations/slideEffect.css';
+import './animations/fade.css';
 
 export default class LandingPage extends React.Component {
   render() {

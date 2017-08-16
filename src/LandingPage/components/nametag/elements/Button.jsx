@@ -27,8 +27,8 @@ export default class Button extends React.Component {
 
   handleClick(e) {
     var landingPage = document.querySelector('#landingPage');
-      landingPage.classList.remove("slideRight");
-      landingPage.classList.add("slideLeft");
+      landingPage.classList.remove("fadeIn");
+      landingPage.classList.add("fadeOut");
 
     var mainPage = document.querySelector('#content');
       mainPage.classList.remove("hide");

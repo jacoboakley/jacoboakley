@@ -22,8 +22,8 @@ export default class Home extends React.Component {
 
   returnHome(e) {
     var landingPage = document.querySelector('#landingPage');
-      landingPage.classList.remove("slideLeft");
-      landingPage.classList.add("slideRight");
+      landingPage.classList.remove("fadeOut");
+      landingPage.classList.add("fadeIn");
 
     var mainPage = document.querySelector('#content');
       mainPage.classList.toggle("scaleUp");
