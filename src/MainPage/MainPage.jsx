@@ -49,7 +49,7 @@ export default class MainPage extends React.Component {
     return(
       <div style={styles.container} >
         <Nav onClick={this.handleClick.bind(this)}/>
-        <Content title={this.state.title} content={this.state.content} link={this.state.link} madeWith={this.state.madeWith} source={this.state.source} />
+        <Content title={this.state.title} content={this.state.content} source={this.state.source} />
       </div>
     )
   }

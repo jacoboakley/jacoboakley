@@ -28,10 +28,25 @@ const styles = {
 
 export default class Content extends React.Component {
   render() {
+
+    let test = null;
+
+    if(this.props.title === 'Hello') {
+      test = <div>
+                <h1 style={{textAlign: 'center'}}>{this.props.title}</h1>
+                <p style={styles.paragraph}>
+                  {this.props.content}
+                </p>
+              </div>
+    }
+    else {
+      test = <iframe height='700' scrolling='no' title={this.props.title} src={this.props.source} frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{width: '100%'}} alt={this.props.content}>
+        </iframe>
+    }
+
     return(
       <div style={styles.container} className='hide scaleDown' id='content'>
-        <iframe height='700' scrolling='no' title={this.props.title} src={this.props.source} frameborder='no' allowtransparency='true' allowfullscreen='true' style={{width: '75%'}}>
-</iframe>
+        {test}
       </div>
     )
   }
