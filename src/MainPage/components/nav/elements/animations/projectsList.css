@@ -1,7 +1,13 @@
+.projects {
+  text-decoration: none;
+}
+
 .projects:hover {
   transform: scale(1.15, 1.15) skewX(-15deg);
+  text-decoration: underline;
 }
 
 .projects:focus {
   transform: scale(1.15, 1.15) skewX(-15deg);
+  text-decoration: underline;
 }
