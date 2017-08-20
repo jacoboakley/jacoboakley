@@ -8,7 +8,7 @@
   {
     "id": 2,
     "title": "Cardflip",
-    "source": "//codepen.io/jacoboakley/embed/ZpRbqB/?height=700&theme-id=dark&default-tab=result&embed-version=2",
+    "source": "//codepen.io/jacoboakley/embed/ZpRbqB/?height=700&theme-id=light&default-tab=result&embed-version=2",
     "madeWith": "HTML, CSS, JavaScript",
     "link": "http://codepen.io/jacoboakley/pen/ZpRbqB",
     "content": "Using HTML I created a container div with a card div that had two children divs for the front and back of the cards. Within the front and back divs I inputted some text and added placeholder backgrounds. Next I wrote a simple function in JavaScript that used an if statement to determine the rotation of the card on the Y axis and if the rotation was 0 degrees then function would rotate the card 180 degrees, else the card would be rotated to 0 degrees. Finally I styled the components using CSS, set the animation characteristics, and set the perspective of for the 3D animation. "
@@ -16,7 +16,7 @@
   {
     "id": 3,
     "title": "Symbol",
-    "source": "//codepen.io/jacoboakley/embed/zNBxOm/?height=700&theme-id=dark&default-tab=result&embed-version=2",
+    "source": "//codepen.io/jacoboakley/embed/zNBxOm/?height=700&theme-id=light&default-tab=result&embed-version=2",
     "madeWith": "Three.js and Blender",
     "link": "http://codepen.io/jacoboakley/pen/zNBxOm",
     "content": "Using Blender, a 3D creation tool, I created an object based on the Vets Who Code Symbol and exported it to a JSON file. Next I created a scene using a WebGL Library called Three.js. Within my scene I added lighting and a camera. Then I imported my Object using the JSON loader built into Three.js. Next I added a rotation so my object would move and a background to make the object stand out. Finally I rendered my object to the screen. "
@@ -24,7 +24,7 @@
   {
     "id": 4,
     "title": "React/Three",
-    "source": "//codepen.io/jacoboakley/embed/dOePJv/?height=700&theme-id=dark&default-tab=result&embed-version=2",
+    "source": "//codepen.io/jacoboakley/embed/dOePJv/?height=700&theme-id=light&default-tab=result&embed-version=2",
     "madeWith": "React and Three.js",
     "link": "http://codepen.io/jacoboakley/pen/dOePJv",
     "content": "I created a scene using a WebGL Library called Three.js. Within my scene I added lighting and a camera. Next I created a cube object that had an array for its Material. This allowed me to create a cube that had a different color on each of its faces. I then rendered the cube on the page and gave it a rotation on each of its axis. Next I used React to display my UI components. I added some links fixed to the bottom of the page that lead to my sites, a help button that displayed text when the mouse hovered over it and card that contained an image of me, my name, and some of the technologies that I am familiar with. "
@@ -32,15 +32,15 @@
   {
     "id": 5,
     "title": "Bouncing Gallery",
-    "source": "//codepen.io/jacoboakley/embed/BWKBaN/?height=700&theme-id=dark&default-tab=result&embed-version=2",
+    "source": "//codepen.io/jacoboakley/embed/BWKBaN/?height=700&theme-id=light&default-tab=result&embed-version=2",
     "madeWith": "React and CSS",
     "link": "http://codepen.io/jacoboakley/pen/BWKBaN",
-    "content": "I used react to create and display the images, my text, and the div for my shadow. I then created the shadow under my images by styling my div with the class name of “shadow.” Next I animated the images and shadows using key frames that I set to alternate in an infinite loop. Finally I used the CSS pseudo selector :hover to display hidden text, pause the animation, and create a slightly transparent image so the text would be easier to read on darker images. "
+    "content": "I used react to create and display the images, my text, and the div for my shadow. I then created the shadow under my images by styling my div with the class name of “shadow.” Next I animated the images and shadows using key frames that I set to alternate in an infinite loop. Finally I used the CSS pseudo selector :hover to display hidden text, pause the animation, and create a slightly transparent image so the text would be easier to read on lighter images. "
   },
   {
     "id": 6,
     "title": "Football Game",
-    "source": "//codepen.io/jacoboakley/embed/WRpdXb/?height=700&theme-id=dark&default-tab=result&embed-version=2",
+    "source": "//codepen.io/jacoboakley/embed/WRpdXb/?height=700&theme-id=light&default-tab=result&embed-version=2",
     "madeWith": "HTML, CSS, JavaScript",
     "link": "http://codepen.io/jacoboakley/pen/WRpdXb",
     "content": "Using HTML I created a header, and a div for a football field that held two children, one for a football and one for a button. I used the header to display information such as directions and the outcome of the game. I displayed the football field by using an image for the background of the container div. I also created the football using an img tag in my HTML. Next I used JavaScript to listen for a “keyup” event on the D and L keys to move the ball on the screen left or right. I had to use the “keyup” because if I used the “keydown” someone could hold the key down and it would rapidly repeat the “keydown” event and win the game. Next I used JavaScript to change the text in my header to provide players with the information they needed at different points. As soon as either the D or L keys were pressed the text would change to cheer on the players. Once the ball reached the endzone the text would change to let the players know who won. Lastly I used JavaScript to display a hidden button and created a function that would reset the game once the button was pressed. CSS was used for a small amount of styling.  "

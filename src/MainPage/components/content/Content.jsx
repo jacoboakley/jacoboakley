@@ -4,16 +4,16 @@ import './animations/scale.css';
 
 const styles = {
   container: {
-    marginTop: '15vh',
+    marginTop: '20vh',
     marginLeft: '5vw',
+    padding: 0,
 
-    height: '80vh',
+    height: '75vh',
     width: '90vw',
 
-    alignItems: 'center',
+    
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
 
     color: 'white',
   },
@@ -25,7 +25,6 @@ const styles = {
     textAlign: 'justify',
 
     fontSize: '3.5vmin',
-    
   }
 }
 
