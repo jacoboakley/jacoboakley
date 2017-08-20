@@ -11,7 +11,7 @@ const styles = {
     height: '75vh',
     width: '90vw',
 
-    
+    alignItems: 'center',
     display: 'flex',
     flexDirection: 'column',
 
@@ -42,7 +42,7 @@ export default class Content extends React.Component {
               </div>
     }
     else {
-      display = <iframe height='700' scrolling='no' title={this.props.title} src={this.props.source} frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{width: '100%'}} alt={this.props.content}>
+      display = <iframe height='700' scrolling='no' title={this.props.title} src={this.props.source} frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{width: '90%'}} alt={this.props.content}>
         </iframe>
     }
 
