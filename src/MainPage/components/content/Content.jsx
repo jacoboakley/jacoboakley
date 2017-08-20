@@ -23,16 +23,19 @@ const styles = {
 
     lineHeight: '200%',
     textAlign: 'justify',
+
+    fontSize: '3.5vmin',
+    
   }
 }
 
 export default class Content extends React.Component {
   render() {
 
-    let test = null;
+    let display = null;
 
     if(this.props.title === 'Hello') {
-      test = <div>
+      display = <div>
                 <h1 style={{textAlign: 'center'}}>{this.props.title}</h1>
                 <p style={styles.paragraph}>
                   {this.props.content}
@@ -40,13 +43,13 @@ export default class Content extends React.Component {
               </div>
     }
     else {
-      test = <iframe height='700' scrolling='no' title={this.props.title} src={this.props.source} frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{width: '100%'}} alt={this.props.content}>
+      display = <iframe height='700' scrolling='no' title={this.props.title} src={this.props.source} frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{width: '100%'}} alt={this.props.content}>
         </iframe>
     }
 
     return(
       <div style={styles.container} className='hide scaleDown' id='content'>
-        {test}
+        {display}
       </div>
     )
   }

@@ -37,10 +37,10 @@ export default class Home extends React.Component {
   render() {
     return (
       <a style={styles.container} onClick={this.returnHome.bind(this)} className='nav-button side' href='#'>
-        <p>H</p>
-        <p>O</p>
-        <p>M</p>
-        <p>E</p>
+        <p style={{textShadow: '.25vmin .25vmin 0 #8a0099',}} >H</p>
+        <p style={{textShadow: '.25vmin .25vmin 0 #8a0099',}} >O</p>
+        <p style={{textShadow: '.25vmin .25vmin 0 #8a0099',}} >M</p>
+        <p style={{textShadow: '.25vmin .25vmin 0 #8a0099',}} >E</p>
       </a>
     )
   }

@@ -6,6 +6,7 @@ var data = require('../../data/projects.json');
 // Import styles for animation
 import './animations/navButton.css';
 import './animations/displayProjects.css';
+import './animations/projectsList.css';
 
 const styles = {
   container: {
@@ -31,12 +32,22 @@ const styles = {
     textDecoration: 'none',
   },
 
-  project: {
-    display: 'inline-block',
-    margin: 0,
-    padding: '0 1vmin 0 1vmin',
+  projectList: {
+    width: '80vw',
 
+    alignItems: 'center',
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+  },
+
+  projects: {
+    margin: 0,
+    padding: '2vmin',
+
+    color: '#8a0099',
     cursor: 'pointer',
+    fontSize: '3.5vmin',
   }
 }
 
@@ -48,7 +59,7 @@ export default class Projects extends React.Component {
 
     for(var i = 1; i < data.length; i++) {
       var project = data[i];
-      projectArray.push(<p style={styles.project} onClick={this.props.onClick} key={project.id} data-title={project.title} data-content={project.content} data-made={project.madeWith} data-link={project.link} data-source={project.source}>{project.title}</p>)
+      projectArray.push(<a href='#' style={styles.projects} onClick={this.props.onClick} className='projects' key={project.id} data-title={project.title} data-content={project.content} data-made={project.madeWith} data-link={project.link} data-source={project.source}>{project.title}</a>)
     }
   }
 
@@ -67,15 +78,15 @@ export default class Projects extends React.Component {
       <div style={styles.container}>
         <a style={styles.heading} onClick={this.displayProjects.bind(this)} className='nav-button top' href='#' id='menu'>
         <p>P</p>
-        <p style={{paddingLeft: '5vmin'}}>R</p>
-        <p style={{paddingLeft: '5vmin'}}>O</p>
-        <p style={{paddingLeft: '5vmin'}}>J</p>
-        <p style={{paddingLeft: '5vmin'}}>E</p>
-        <p style={{paddingLeft: '5vmin'}}>C</p>
-        <p style={{paddingLeft: '5vmin'}}>T</p>
-        <p style={{paddingLeft: '5vmin'}}>S</p>
+        <p style={{paddingLeft: '5vmin', textShadow: '.25vmin .25vmin 0 #8a0099',}}>R</p>
+        <p style={{paddingLeft: '5vmin', textShadow: '.25vmin .25vmin 0 #8a0099',}}>O</p>
+        <p style={{paddingLeft: '5vmin', textShadow: '.25vmin .25vmin 0 #8a0099',}}>J</p>
+        <p style={{paddingLeft: '5vmin', textShadow: '.25vmin .25vmin 0 #8a0099',}}>E</p>
+        <p style={{paddingLeft: '5vmin', textShadow: '.25vmin .25vmin 0 #8a0099',}}>C</p>
+        <p style={{paddingLeft: '5vmin', textShadow: '.25vmin .25vmin 0 #8a0099',}}>T</p>
+        <p style={{paddingLeft: '5vmin', textShadow: '.25vmin .25vmin 0 #8a0099',}}>S</p>
         </a>
-        <div className='closed' id='projects'>
+        <div style={styles.projectList} className='closed' id='projects'>
           {this.state.projects}
         </div>
       </div>

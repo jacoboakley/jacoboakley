@@ -15,15 +15,15 @@
   },
   {
     "id": 3,
-    "title": "Vets Who Code Symbol",
+    "title": "Symbol",
     "source": "//codepen.io/jacoboakley/embed/zNBxOm/?height=700&theme-id=dark&default-tab=result&embed-version=2",
     "madeWith": "Three.js and Blender",
     "link": "http://codepen.io/jacoboakley/pen/zNBxOm",
-    "content": "Using Blender, a 3D creation tool, I created an object and exported it to a JSON file. Next I created a scene using a WebGL Library called Three.js. Within my scene I added lighting and a camera. Then I imported my Object using the JSON loader built into Three.js. Next I added a rotation so my object would move and a background to make the object stand out. Finally I rendered my object to the screen. "
+    "content": "Using Blender, a 3D creation tool, I created an object based on the Vets Who Code Symbol and exported it to a JSON file. Next I created a scene using a WebGL Library called Three.js. Within my scene I added lighting and a camera. Then I imported my Object using the JSON loader built into Three.js. Next I added a rotation so my object would move and a background to make the object stand out. Finally I rendered my object to the screen. "
   },
   {
     "id": 4,
-    "title": "Practice Portfolio",
+    "title": "React/Three",
     "source": "//codepen.io/jacoboakley/embed/dOePJv/?height=700&theme-id=dark&default-tab=result&embed-version=2",
     "madeWith": "React and Three.js",
     "link": "http://codepen.io/jacoboakley/pen/dOePJv",
