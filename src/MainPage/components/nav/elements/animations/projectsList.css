@@ -1,9 +1,7 @@
 .projects:hover {
-  transform: skewX(-20deg);
-  transform: scale(1.15, 1.15);
+  transform: scale(1.15, 1.15) skewX(-15deg);
 }
 
 .projects:focus {
-  transform: skewX(-20deg);
-  transform: scale(1.15, 1.15);
+  transform: scale(1.15, 1.15) skewX(-15deg);
 }
